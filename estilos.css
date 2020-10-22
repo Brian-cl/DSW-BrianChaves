@@ -1,0 +1,156 @@
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #005883 ;
+    text-align: center;
+    }
+    
+    
+    h2 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #005883 ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #005883 ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    h4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #005883 ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    
+    
+    p {
+        font-family: 'Calibri', 'Tahoma', 'Geneva', Verdana, sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    ol {
+        font-family: 'Calibri', 'Tahoma', 'Geneva', Verdana, sans-serif;
+    }
+    
+    
+    ul {
+        font-family: 'Calibri', 'Tahoma', 'Geneva', Verdana, sans-serif;
+    }
+    
+    .vertical-menu {
+        width: 200px; /* Define el ancho del menú */
+        float: left;
+        padding: 20px;
+      }
+      
+      .vertical-menu a {
+        background-color: #eee; /* Color gris de fondo */
+        color: black; /* Color texto */
+        display: block; /* Permite alinear los links verticalmente */
+        padding: 12px; /* Agrega padding */
+        text-decoration: none; /* Remueve línea en los links */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+      .vertical-menu a:hover {
+        background-color: #f0b429; /* Pone color especificado cuando se pone el mouse */
+      }
+      
+      .vertical-menu a.active {
+        background-color: #005883; /* Adiciona un color al link actual */
+        color: white;
+      }
+    
+    
+      .button {
+        padding: 15px 25px;
+        font-size: 24px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #005883;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+        text-decoration: none; /* Remueve línea en los links */
+      }
+    
+      .button:hover {background-color: #f47920}
+    
+    .button:active {
+      background-color: #3e8e41;
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+    }
+    
+    
+     .columna {
+        float: left;
+      }
+      
+      /* Limpia flotación de imagen después de las columnas */
+      .fila:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    
+      .texto
+      {
+        width: 60%;
+        margin: 40px;
+        float: left;
+      }
+    
+    
+    
+      .frente
+      {
+        width: 80%;
+        margin: 40px;
+        text-align: center;
+      }
+    
+    
+      #tabla {
+        font-family: 'Calibri', 'Tahoma', 'Geneva', Verdana, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      #tabla td, #tabla th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #tabla tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #tabla tr:hover {background-color: #ddd;}
+      
+      #tabla th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color:#005883;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+    
+    
+      .pie_pagina
+      {
+        width: 80%;
+        margin: 20px;
+        text-align: center;
+      }
